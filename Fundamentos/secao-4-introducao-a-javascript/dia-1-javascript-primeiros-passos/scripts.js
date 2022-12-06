@@ -37,3 +37,18 @@ if (num1 > num2){
 else{
     console.log("O maior valor é num2: ",num2);
 }
+
+//Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três constantes com os valores que serão comparados.
+const valor1 = 40;
+const valor2 = 45;
+const valor3 = 25; 
+
+if (valor1 > valor2 && valor1 > valor3){
+    console.log("Valor1 é o maior ", valor1);
+}
+else if(valor2 > valor3){
+    console.log("Valor2 é o maior ", valor2);
+}
+else{
+    console.log("Valor3 é o maior ", valor3)
+}
