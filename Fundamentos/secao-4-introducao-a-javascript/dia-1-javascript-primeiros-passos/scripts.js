@@ -26,3 +26,14 @@ a = 25, b = 5;
 let modulo;
 console.log("Módulo: ", modulo = a % b);
 
+//Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas constantes com os valores que serão comparados.
+
+const num1 = 30;
+const num2 = 20; 
+
+if (num1 > num2){
+    console.log("O maior valor é num1: ", num1);
+}
+else{
+    console.log("O maior valor é num2: ",num2);
+}
