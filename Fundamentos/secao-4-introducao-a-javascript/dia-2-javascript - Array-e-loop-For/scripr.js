@@ -63,5 +63,15 @@ else{
     console.log("quantidade de valores ímpares encontrados",result);
 }
 
+// Utilizando for, descubra qual o menor valor contido no array e imprima-o;
 
+console.log("-----------------------------");
+numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let smallestNumber = numbers[0];
 
+for(index = 1; index < numbers.length; index += 1){
+    if (numbers[index] < smallestNumber){
+        smallestNumber = numbers[index];
+    }
+}
+console.log(smallestNumber);
