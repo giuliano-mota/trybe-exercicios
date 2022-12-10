@@ -24,4 +24,13 @@ for (index = 0; index < numbers.length; index += 1){
 
 }
 let average = sum / numbers.length;
-console.log("Média aritmetica", average);
+console.log("Média aritmética", average);
+
+// Com base no código que acabou de gerar, faça com que, caso o valor final seja maior que 20, imprima a mensagem: “valor maior que 20”. Caso não seja, imprima a mensagem: “valor menor ou igual a 20”;
+console.log("-----------------------------");
+if (average > 20){
+    console.log("Valor maior que 20");
+}
+else{
+    console.log("Valor menor ou igual a 20");
+}
