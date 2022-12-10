@@ -34,3 +34,17 @@ if (average > 20){
 else{
     console.log("Valor menor ou igual a 20");
 }
+
+//Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+console.log("-----------------------------");
+numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let higherNumber = numbers[0];
+
+for(index = 1; index < numbers.length; index += 1){
+    if (numbers[index] > higherNumber){
+        higherNumber = numbers[index];
+    }
+}
+console.log(higherNumber)
+
+
