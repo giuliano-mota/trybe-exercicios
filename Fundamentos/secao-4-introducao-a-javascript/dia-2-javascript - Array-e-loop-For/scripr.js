@@ -75,3 +75,11 @@ for(index = 1; index < numbers.length; index += 1){
     }
 }
 console.log(smallestNumber);
+
+//Utilizando for, crie um array que vá de 1 até 25 e imprima o resultado.
+console.log("-----------------------------");
+numbers = [];
+for (index = 1; index <= 25; index += 1){
+    numbers.push(index); 
+}
+console.log(numbers);
