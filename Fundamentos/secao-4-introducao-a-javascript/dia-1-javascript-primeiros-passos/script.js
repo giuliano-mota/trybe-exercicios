@@ -51,3 +51,17 @@ else if (numB > numC){
 else{
     console.log("numC " + numC + " é o maior número ");
 }
+
+console.log(" ");
+console.log("Atividade 4 ");
+//Utilize if/else para escrever um código que, dado um valor recebido como parâmetro, retorne “positive” se esse valor for positivo, “negative” se for negativo, e caso não seja nem positivo e nem negativo retorne “zero”.
+let value = -4;
+if (value < 0){
+    console.log("O número " + value + " é negativo");
+}
+else if(value > 0){
+    console.log("O número " + value + " é positivo");
+}
+else{
+    console.log("zero ");
+}
